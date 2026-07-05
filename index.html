@@ -10,7 +10,8 @@
   body{margin:0;background:var(--ground);color:var(--ink);
     font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
     line-height:1.5;font-variant-numeric:tabular-nums;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:1140px;margin:0 auto;padding:44px 26px 80px}
+  .wrap{width:100%;max-width:1140px;margin:0 auto;padding:44px 26px 80px}
+  @media (min-width:1280px){ .wrap{max-width:min(1800px, 94vw)} }
   .eyebrow{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);font-weight:700}
   h1{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
     font-weight:600;font-size:38px;line-height:1.1;letter-spacing:-.01em;margin:.35rem 0 .4rem;text-wrap:balance}
